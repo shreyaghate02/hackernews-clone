@@ -24,7 +24,7 @@ ReactDOM.render(
     <Auth0Provider
       domain={config.domain}
       client_id={config.clientId}
-      audience="https://hackernews-clone-2.herokuapp.com/v1/graphql"
+      audience=""
       redirect_uri={config.redirect_uri}
       onRedirectCallback={onRedirectCallback}
     >

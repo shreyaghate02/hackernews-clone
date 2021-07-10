@@ -34,7 +34,7 @@ function Header() {
                 </Link>
                 <span> &nbsp;|&nbsp; </span>
                 <span className="anchor">
-                  user :
+                  username:
                   <Link className="anchor" to={"/user/" + user.sub}>
                     {user.nickname}
                   </Link>

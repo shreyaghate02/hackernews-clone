@@ -30,6 +30,8 @@ function Post(props) {
     refetchQueries: [{ query: POSTS_LIST }]
   });
 
+  // if (error) return `Error! ${error.message}`;
+
   return (
     <Row className="post" key={props.index}>
       {/* key is just a react thing, you can read it here : https://reactjs.org/docs/lists-and-keys.html#keys */}

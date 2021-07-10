@@ -42,7 +42,7 @@ function App() {
 
   // for apollo client
   const httpLink = new HttpLink({
-    uri: "https://hackernews-clone-2.herokuapp.com/v1/graphql"
+    uri: "ENTER GRAPHQL ENDPOINT HERE",
   });
 
   const authLink = setContext((_, { headers }) => {
